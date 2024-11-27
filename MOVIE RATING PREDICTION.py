@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # Load the dataset
-df = pd.read_csv(r"C:\Users\Dharnish\Downloads\IMDb Movies India.csv\IMDb Movies India.csv", encoding='ISO-8859-1')
+df = pd.read_csv(r".\IMDb Movies India.csv", encoding='ISO-8859-1') # path of the file 
 
 # Display initial info
 print(df.info())
